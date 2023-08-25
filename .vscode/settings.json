@@ -1,0 +1,17 @@
+{
+    "rust-analyzer.linkedProjects": [
+        ".\\src-tauri\\Cargo.toml",
+        ".\\src-tauri\\Cargo.toml",
+        ".\\src-tauri\\Cargo.toml"
+    ],
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.languageIdToFileExtensionMap": {
+        "bat": ".bat",
+        "powershell": ".ps1",
+        "typescript": ".ts"
+    },
+    // 20230728 ts输出乱码
+    "code-runner.executorMap": {
+        "typescript": "npx ts-node --files"
+    }
+}
